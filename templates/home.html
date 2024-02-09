@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Slab">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Concert+One">
+</head>
+
+<style>
+
+    header {
+        height: 150px;
+        border-radius: 10px;
+        background-color: pink;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .circles {
+        display: flex;
+        justify-content:flex-start;
+    }
+
+    .name {
+        display: flex;
+        justify-content: left;
+        padding-right: 55%;
+    }
+
+    .circle {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .circle-btn {
+        width: 70px; /* Diameter of the circle */
+        height: 70px; /* Diameter of the circle */
+        border-radius: 50%; /* Make it a circle */
+        background-color: white; /* Button background color */
+        display: flex;
+        justify-content: center; /* Center align content horizontally */
+        align-items: center; /* Center align content vertically */
+        cursor: pointer;
+        border: none; /* Remove default button border */
+        outline: none; /* Remove default button outline */
+    }
+    
+    /* Style for button image */
+    .circle-btn img {
+        max-width: 100%; /* Limit image size to fit within the circle */
+        max-height: 100%; /* Limit image size to fit within the circle */
+        border-radius: 50%; /* Make it a circle */
+        object-fit: cover; /* Maintain aspect ratio while covering the entire space */
+    }
+
+    body {
+        background-color: #B0ACA2;
+    }
+
+    h1 {
+        margin-right: auto;
+        color: #35374F;
+        font-family: Josefin Slab;
+        font-size: 60px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .firstname {
+        margin-left: 2%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .lastname {
+        margin-left: 15%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+
+    .aboutme {
+        background-color: #35374F;
+        width: 700px;
+        height: 500px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .extra {
+        background-color: #35374F;
+        width: 400px;
+        height: 300px;
+        border-radius: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .vl {
+        border-left: 4px solid grey;
+        height: 500px;
+    }
+
+    .pod {
+        background-color: aquamarine;
+        width: 350px;
+        height: 80px;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-right: 40px;
+        text-align: center;
+    }
+
+    .divider {
+        margin-left: 43%;
+        margin-top: 50px;
+    }
+
+</style>
+
+<header>
+
+    <div class="circles">
+        <div class="name">
+            <div>
+                <h1 class="firstname">Drew</h1>
+                <h1 class="lastname">Bevington</h1>
+            </div>
+        </div>
+        <div class="circle">
+            <button class="circle-btn">
+                <img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" alt="gmail" class="contact">
+            </button>
+        </div>
+        <div class="circle">
+            <button class="circle-btn">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="gmail" class="contact">
+            </button>
+        </div>
+        <div class="circle">
+            <button class="circle-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" alt="gmail" class="contact">
+            </button>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <div class="container">
+        <div class="about">
+            <div class="aboutme">About me</div>
+            <div class="smaller-squares">
+                <div class="extra">Extracirriculars</div>
+                <div class="work">Work Experience</div>
+            </div>
+        </div>
+        <div class="vl"></div>
+        <div class="sidebar">
+            <div class="pod">Workout</div>
+            <div class="pod">Raffle Counter</div>
+            <div class="pod">Teacher Site</div>
+            <h3 class="divider">Work Experience</h3>
+        </div>
+    </div>
+
+</body>
+</html>
